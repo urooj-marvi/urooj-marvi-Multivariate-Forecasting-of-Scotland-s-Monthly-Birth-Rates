@@ -52,6 +52,22 @@ These metrics were used to generate a comparative performance table and visualiz
 
 ---
 
+---
+
+🚀 Deployment
+
+Current Deployment
+
+Platform: Streamlit
+
+Status: ✅ Live
+
+URL: https://4uhzuxtxjzezgxhqtzjchn.streamlit.app/
+
+Auto-deploy: Manual updates (redeploy when new code or dataset is pushed)
+
+---
+
 ## 🛠️ Tools & Libraries
 
 - **Python** (Pandas, NumPy, Seaborn, Matplotlib)
