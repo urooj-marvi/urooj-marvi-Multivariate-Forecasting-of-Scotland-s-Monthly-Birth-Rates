@@ -1,18 +1,39 @@
-# 📊 Multivariate Forecasting of Scotland’s Monthly Birth Rates
+# 📊 **Multivariate Forecasting of Scotland’s Monthly Birth Rates**
 
 This repository contains a complete machine learning pipeline for forecasting Scotland’s monthly birth rates using multivariate time series data derived from health, education, and economic indicators. The project involves data preprocessing, feature engineering, multiple model implementations, and performance evaluation using MAE and RMSE.
 
 ---
 
-## 📁 Dataset
+## 📁 **Dataset**
 
 - The data was collected and merged from multiple domains.
-- Contains monthly features along with historical birth records.
-- Stored as `final_merged_dataset.csv`.
+| Column Name              | Description                                           |
+| ------------------------ | ----------------------------------------------------- |
+| **Year**                 | Year of observation (e.g., 2000, 2001, …)             |
+| **Month**                | Month of observation (1–12)                           |
+| **Births**               | Total number of births recorded (**Target Variable**) |
+| **CPI Index**            | Consumer Price Index (economic factor)                |
+| **UnemploymentRate**     | Monthly unemployment rate (%)                         |
+| **Maternities**          | Total maternities recorded                            |
+| **Live Births**          | Number of live births                                 |
+| **BMI (Obesity %)**      | Percentage of mothers with obesity                    |
+| **Diabetes %**           | Percentage of mothers with diabetes                   |
+| **Induction %**          | Percentage of births induced                          |
+| **Method of Birth**      | Mode of delivery (e.g., vaginal, C-section, assisted) |
+| **Preterm %**            | Percentage of preterm births                          |
+| **FullTerm %**           | Percentage of full-term births                        |
+| **Neonatal Mortality %** | Neonatal mortality rate (%)                           |
+| **SGA %**                | Small for Gestational Age births (%)                  |
+| **AGA %**                | Appropriate for Gestational Age births (%)            |
+| **LGA %**                | Large for Gestational Age births (%)                  |
+| **Unnamed: 1**           | Extra/empty column (dropped during preprocessing)     |
+| **Total**                | Total births (may duplicate `Births`)                 |
+| **Female %**             | Percentage of female births                           |
+
 
 ---
 
-## 🧠 Models Implemented
+## 🧠 **Models Implemented**
 
 - VAR (Vector Autoregression)
 - Random Forest Regressor
@@ -52,9 +73,7 @@ These metrics were used to generate a comparative performance table and visualiz
 
 ---
 
----
-
-🚀 Deployment
+## 🚀 **Deployment**
 
 Current Deployment
 
